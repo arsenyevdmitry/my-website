@@ -1,0 +1,41 @@
+  
+  .cover {
+    background-image: url(jump\ show.jpg);
+      background-size: cover;
+      background-position:center;
+      height: 600px;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      color: rgb(255, 255, 255);
+      font-size: 40px;
+      text-shadow: 2px 2px 4px rgba(37, 189, 249, 0.6);
+  }
+
+
+
+  /* Стили для меню */
+  ul {
+   
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color:#872451;
+      overflow: hidden;
+  }
+
+  li {
+      float:left;
+  }
+
+  li a {
+      display:inline-flex;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration:solid;
+  }
+
+  li a:hover {
+      background-color: #000000;
+  }
