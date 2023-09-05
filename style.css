@@ -39,3 +39,19 @@
   li a:hover {
       background-color: #000000;
   }
+
+  form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      /* Желаемая ширина формы */
+      margin: 20px;
+      /* Центрирование формы по горизонтали */
+  }
+
+  label,
+  input,
+  textarea {
+      margin-bottom: 10px;
+      /* Отступ между элементами */
+  }
